@@ -58,8 +58,16 @@ body {
 .rules {
   font-family: "Laptev Brush", Arial, Helvetica, sans-serif;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.7em;
   font-weight: 700;
+  color: #70961f;
+}
+
+.note {
+  font-family: "Laptev Brush", Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: 400;
   color: #70961f;
 }
 
