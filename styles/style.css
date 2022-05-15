@@ -14,8 +14,11 @@
 
 @media screen and (max-width: 1080px) {
   .form {
-    right: 0;
-    left: 0;
+    left: 20px;
+  }
+
+  .message-area {
+    right: 20px;
   }
 }
 
