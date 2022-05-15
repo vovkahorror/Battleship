@@ -12,26 +12,35 @@
   src: url(../fonts/laptev_brush-webfont.woff2);
 }
 
+@media screen and (max-width: 1080px) {
+  .form {
+    right: 0;
+    left: 0;
+  }
+}
+
 body {
   background: #010101;
   margin: 0 auto;
 }
 
 .header {
+  width: 100%;
+  margin: 0 auto;
   font-family: "Capture It", Arial, Helvetica, sans-serif;
   text-align: center;
   font-size: 5em;
   color: #70961f;
-  margin: 0 auto;
 }
 
 .rules {
+  width: 100%;
+  margin: 0 auto;
   font-family: "Laptev Brush", Arial, Helvetica, sans-serif;
   text-align: center;
   font-size: 1.5em;
   font-weight: 700;
   color: #70961f;
-  margin: 0 auto;
 }
 
 .board {
