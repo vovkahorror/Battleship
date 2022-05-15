@@ -140,7 +140,7 @@ let controller = {
       let hit = model.fire(location);
       if (hit && model.shipsSunk === model.numShips) {
         view.displayMessage(
-          "Ты потопил все русские корабли за " + this.guesses + " выстрелов!"
+          "ТЫ ПОТОПИЛ ВСЕ РУССКИЕ КОРАБЛИ ЗА " + this.guesses + " ВЫСТРЕЛОВ!"
         );
       }
     }

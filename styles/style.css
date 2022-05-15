@@ -14,6 +14,8 @@
 
 @media screen and (max-width: 1080px) {
   .message-area {
+    position: absolute;
+    font-size: 2.5em;
     top: 20px;
     right: 20px;
   }
@@ -22,15 +24,17 @@
     bottom: 20px;
     left: 20px;
     right: 20px;
-    font-size: 2em;
+    font-size: 3em;
     text-align: center;
   }
 }
 
 @media screen and (min-width: 1081px) {
   .message-area {
+    position: fixed;
     top: 20px;
     left: 20px;
+    font-size: 2em;
   }
 
   .form {
@@ -68,11 +72,9 @@ body {
 }
 
 .message-area {
-  position: fixed;
   color: #000;
   font-family: "Laptev Brush", Arial, Helvetica, sans-serif;
   font-weight: 700;
-  font-size: 2em;
   text-shadow: 1px -6px 6px #0060ff, 1px 6px 6px #f0ff00;
 }
 
