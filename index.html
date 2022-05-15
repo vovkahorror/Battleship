@@ -11,6 +11,9 @@
 </head>
 
 <body>
+    <header class="header">Русский военный корабль,<br> иди на х..й!</header>
+    <div class="rules">На игровом поле находится четыре трёхпалубных русских корабля. Твоя цель – потопить их все, вводя
+        координаты выстрелов в форму внизу.</div>
     <div class="board">
         <div id="messageArea" class="message-area"></div>
         <table class="table">
@@ -81,8 +84,8 @@
             </tbody>
         </table>
         <form class="form">
-            <input type="text" id="guessInput" class="form-input" placeholder="A0">
-            <input type="button" id="fireButton" class="form-input" value="Огонь!">
+            <input type="text" id="guessInput" class="form-input" placeholder="A0" autofocus>
+            <input type="button" id="fireButton" class="form-input form-input-button" value="ОГОНЬ!">
         </form>
     </div>
     <script src="scripts/battleship.js"></script>

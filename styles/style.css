@@ -1,5 +1,20 @@
+@font-face {
+  font-family: "Capture It";
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/capture_it-webfont.woff2);
+}
+
+@font-face {
+  font-family: "Laptev Brush";
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/laptev_brush-webfont.woff2);
+}
+
 body {
   background: #010101;
+  margin: 0 auto;
 }
 
 .board {
@@ -10,11 +25,30 @@ body {
   background: url("../images/board.jpg") no-repeat;
 }
 
+.header {
+  font-family: "Capture It", Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 5em;
+  color: #70961f;
+}
+
+.rules {
+  font-family: "Laptev Brush", Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #70961f;
+}
+
 .message-area {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  color: rgb(83, 175, 19);
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  color: #000;
+  font-family: "Laptev Brush", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  text-shadow: 1px -6px 6px #0060ff, 1px 6px 6px #f0ff00;
 }
 
 .table {
@@ -34,11 +68,27 @@ body {
   bottom: 20px;
   right: 20px;
   padding: 15px;
-  background-color: rgb(83, 175, 19);
+  background: linear-gradient(#0060ff, #f0ff00);
 }
 
 .form-input {
-  background-color: rgb(152, 207, 113);
+  outline: none;
+  background: linear-gradient(#0060ff, #f0ff00);
   border-color: rgb(83, 175, 19);
   font-size: 1em;
+}
+
+.form-input-button {
+  font-family: "Laptev Brush", Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.hit {
+  background: url("../images/ship.png") no-repeat center center;
+}
+
+.miss {
+  background: url("../images/miss.png") no-repeat center center;
 }
